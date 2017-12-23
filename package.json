@@ -1,0 +1,21 @@
+{
+	"name": "advanced-javascript",
+	"version": "1.0.0",
+	"description": "Advanced Javascript Documentation",
+	"main": "start.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ooade/Advanced-JavaScript.git"
+	},
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/ooade/Advanced-JavaScript/issues"
+	},
+	"homepage": "https://github.com/ooade/Advanced-JavaScript#readme",
+	"devDependencies": {
+		"chalk": "^2.3.0"
+	}
+}
