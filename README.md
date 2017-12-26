@@ -2,6 +2,7 @@
 
 This documentation is based on John Resig's website on Advanced JavaScript. If these concepts seem complex to you, i recommend [these resources](https://github.com/micromata/awesome-javascript-learning) and also strongly recommend [FreeCodeCamp - Learn to code and help nonprofits](https://www.freecodecamp.org). If you feel you know most of these concepts, you could just try out the [quizzes](#quizzes) and you're good to go.
 
+
 ## Content
 
 - [Goal](#goal)
@@ -91,6 +92,8 @@ This documentation is based on John Resig's website on Advanced JavaScript. If t
   - [QUIZ: Make a chainable Ninja method](#quiz-make-a-chainable-ninja-method)
   - [QUIZ: Make another instance of a Ninja](#quiz-make-another-instance-of-a-ninja)
   - [QUIZ: Let's try our hand at inheritance](#quiz-lets-try-our-hand-at-inheritance)
+- [Credits](#credits)
+- [Change Logs](#change-logs)
 
 ### Goal
 
@@ -1340,6 +1343,13 @@ assert( ninjas.find("Sam").length == 1, "Finds ninjas by first name" );
 assert( ninjas.find("Dean", "Edwards").length == 1, "Finds ninjas by first and last name" );
 assert( ninjas.find("Alex", "X", "Russell") == null, "Does nothing" );
 ```
+
+## Credits
+
+[John Resig](https://github.com/jeresig) - He made the whole thing.
+
+## Change Logs
+<!-- Any Changes in John's code will be placed here -->
 
 ## Contribution
 
