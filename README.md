@@ -6,6 +6,7 @@ This documentation is based on John Resig's website on Advanced JavaScript. If t
 
 - [Goal](#goal)
 - [Helper Methods](#helper-methods)
+- [Running a Quiz](#running-a-quiz)
 - [Lessons](#lessons)
   - [Defining Functions](#defining-functions)
     - [Order of function definition](#order-of-function-definition)
@@ -116,6 +117,15 @@ assert( null, "So will I." ); //fails
 log( "Just a simple log", "of", "values.", true );
 error( "I'm an error!" );
 ```
+
+### Running a Quiz
+
+It's not quite hard.
+
+1. Fork the Repo.
+2. Clone the Repo to your machine.
+3. `npm install`.
+4. `node start.js`
 
 ## Lessons
 
