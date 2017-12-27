@@ -187,7 +187,7 @@ We can refer to a function, within itself, by its name.
 
 ```js
 function yell(n){
-  return n > 0  yell(n-1) + "a" : "hiy";
+  return n > 0 ? yell(n-1) + "a" : "hiy";
 }
 assert( yell(4) == "hiyaaaa", "Calling the function by itself comes naturally." );
 ```
@@ -210,7 +210,7 @@ Yeah, we could also have "hiyaaaa" displayed, with an anonymous function that's 
 ```js
 var ninja = {
   yell: function(n){
-    return n > 0  ninja.yell(n-1) + "a" : "hiy";
+    return n > 0 ? ninja.yell(n-1) + "a" : "hiy";
   }
 };
 assert( ninja.yell(4) == "hiyaaaa", "A single object isn't too bad, either." );
@@ -221,7 +221,7 @@ assert( ninja.yell(4) == "hiyaaaa", "A single object isn't too bad, either." );
 ```js
 var ninja = {
   yell: function(n){
-    return n > 0  ninja.yell(n-1) + "a" : "hiy";
+    return n > 0 ? ninja.yell(n-1) + "a" : "hiy";
   }
 };
 assert( ninja.yell(4) == "hiyaaaa", "A single object isn't too bad, either." );
@@ -241,7 +241,7 @@ try {
 ```js
 var ninja = {
   yell: function yell(n){
-    return n > 0  yell(n-1) + "a" : "hiy";
+    return n > 0 ? yell(n-1) + "a" : "hiy";
   }
 };
 assert( ninja.yell(4) == "hiyaaaa", "Works as we would expect it to!" );
@@ -258,7 +258,7 @@ assert( samurai.yell(4) == "hiyaaaa", "The method correctly calls itself." );
 ```js
 var ninja = {
   yell: function(n){
-    return n > 0  arguments.callee(n-1) + "a" : "hiy";
+    return n > 0 ? arguments.callee(n-1) + "a" : "hiy";
   }
 };
 assert( ninja.yell(4) == "hiyaaaa", "arguments.callee is the function itself." );
